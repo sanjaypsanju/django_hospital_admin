@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title%}
+About
+{%endblock%}
+
+{% block content%}
+{% load static %}
+<h1>About page</h1>
+<figure class="figure" img-center>
+    <img src="{% static '/images/pk2.jpg' %}"figure-img img-fluid rounded" alt="...">
+    <figcaption class="figure-caption">Panachikandy multi speciality hospital the well-acclaimed health enterprise and one of the leading healthcare systems in india with a team lead by Dr Avani, assures comprehensive health care services with a global standard. The 600-bedded multispecialty hospital is renowned for its excellent medical expertise, nursing care and quality diagnostic services. By focusing on the idea of caring mission with a global vision, pk-medicare - one of the best hospital in delhi, stresses on improving the health of the community by setting up the standard of excellence in medical education, research and clinical care. Aiming a patient- centric care, the hospital is utilizing enhanced lifesaving technologies for leveraging the level of cure.</figcaption>
+  </figure>
+{% endblock%}
